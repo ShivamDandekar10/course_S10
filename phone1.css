@@ -1,42 +1,4 @@
-/* .btn{
-    font-size: 13px;
-    padding: 4px 8px;
-}
 
-.video_adj{
-    width: 370;
-    height: 250;
-    border-radius: 15px;
-  }
-  .shivaa h1 {
-    margin-top: 3%;
-    /* color:#ffffff; */
-    /* color: black;
- font-size: 350%;
- margin-left: 30px;
- margin-right: 0px; */
-
-
-
-/* .pooja {
-    margin-left: 70px;
-    font-size: 200%;
-    color:rgb(255, 255, 255);
-    margin-bottom: 3%;
-    margin-right: 50px;
-}
-
-
-#contact-box{
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 34px;
-  
-  } */ 
 
   #navbar {
     flex-direction: column;
@@ -99,9 +61,10 @@
 }
 
 .video_adj{
-    width: 370;
-    height: 250;
-    border-radius: 15px;
+ width: 280;
+    height: 230;
+    border-radius: 13px;
+  }
   }
   .shivaa h1 {
     margin-top: 3%;
