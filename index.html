@@ -56,13 +56,13 @@
                      Mastering this range of technologies will allow you to develop
                       high quality web sites that, work seamlessly on mobile, tablet, and 
                       large screen browsers accessible.</p>
-                    <div class="edit"><button class="btn1"><a class="shi" href="websideForm.html">Start Now</a></button></div></div>
+                    <div class="edit"><button class="btn1" id="webbutton"><a class="shi">Start Now</a></button></div></div>
             <div class="box">
                 <img src="3.png" alt="">
                 <h2 class="h-secondary center">Python</h2>
                 <p class="center">Enroll in this free Python Fundamentals for Beginners course to enrich your knowledge of various concepts in Python. Learn to solve with programming paradigms for real-time problems.This courses  will introduce 
                     fundamental programming concepts including data structures, networked application program interfaces, and databases, using the Python programming language. </p>
-                    <div class="edit"><button class="btn1"><a class="shi" href="websideForm.html">Start Now</a></button></div>
+                    <div class="edit"><button class="btn1" id="pythonbutton"><a class="shi" >Start Now</a></button></div>
             </div>
         </div>
     </section>
@@ -107,7 +107,7 @@
                     <textarea name="message" id="message" cols="30" rows="10"></textarea>
                 </div>
                 
-                    <button class="submit"><a class="shi" href="#services-container">Submit</a></button>
+                    <button class="submit" id="js"><a class="shi" href="#services-container">Submit</a></button>
                 
             </form>
             
@@ -145,6 +145,18 @@
             Copyright &copy; www.CourseS10.com. All rights reserved!
         </div>
     </footer>
+    <script>
+        document.getElementById("js").addEventListener("click", function() {
+          alert("Your Message is Submited !");
+        });
+        document.getElementById("webbutton").addEventListener("click", function() {
+          alert("We're adding more web development courses so go with Core JAVA for now!");
+        });
+      document.getElementById("pythonbutton").addEventListener("click",function(){
+          alert("We're adding more python courses so go with Core JAVA for now!");
+      });
+      
+        </script>
 </body> 
 
 </html>
